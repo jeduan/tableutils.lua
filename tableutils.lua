@@ -15,8 +15,14 @@ function M.shuffle(t)
 end
 
 function M.extend(dest, source)
-	for k,v in pairs(source) do
-		destination[k] = v
+	local destination = {}
+	if source then
+		for k,v in pairs(source) do
+			destination[k] = v
+		end
+		for k,v in pairs(dest) do
+			destination[k] = v
+		end
 	end
 	return destination
 end
