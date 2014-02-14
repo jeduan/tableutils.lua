@@ -1,0 +1,15 @@
+{
+  "name": "tableutils",
+  "description": "",
+  "main": "tableutils.lua",
+  "version": "0.0.1",
+  "ignore": [
+    "config.lua",
+    "main.lua",
+    "build.settings"
+  ],
+  "dependencies": {
+    "log": "~0.3.0"
+  }
+}
+
